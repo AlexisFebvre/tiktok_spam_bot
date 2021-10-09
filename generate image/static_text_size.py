@@ -18,14 +18,6 @@ font_size = 100
 text = do_sentence()
 text_color = (255, 255, 255)
 font = ImageFont.truetype("assets/font/Bella Safira.otf", font_size)
-
-###################
-# a revoir font trop petite par moment
-###################
-if font.getsize(text)[0] > 1034:
-    font_size = int(1034 / len(text))
-    font = ImageFont.truetype("assets/font/Bella Safira.otf", font_size)
-
 text_xy = (int((img_size[0]/2) - (font.getsize(text)[0]) / 2), int((img_size[1]/2) - font.getsize(text)[1]) / 1.25)
 
 
