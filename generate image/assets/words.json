@@ -1,0 +1,63 @@
+{
+    "je": {
+        "sujet": [
+            "Je"
+        ],
+        "verbe": [
+            "porte", "mange"
+        ]
+    },
+    "tu": {
+        "sujet": [
+            "Tu"
+        ],
+        "verbe": [
+            "portes", "manges"
+        ]
+    },
+    "il": {
+        "sujet": [
+            "Il", "Elle", "On", 
+            "Jacques", "Alice","Le chien", 
+            "Le chat", "Ton chien","Ton chat",
+            "Sa mere", "Ta mere","Son pere",
+            "Ton pere", "Son frere", "Ton frere",
+            "Sa soeur", "Ta soeur", "Ma famille",
+            "Ta famille"
+        ],
+        "verbe": [
+            "porte", "mange"
+        ]
+    },
+    "nous": {
+        "sujet": [
+            "Nous", "Mon equipe et moi", "Tous les deux, nous",
+            "Nous autres", "Toi et moi"
+        ],
+        "verbe": [
+          "portons", "mangeons"  
+        ]
+    },
+    "vous": {
+        "sujet": [
+            "Vous", "Vous autres", "Vous deux",
+            "Ton equipe et toi", "Tous le deux, vous"
+        ],
+        "verbe": [
+            "portez", "mangez"
+        ]
+    },
+    "ils": {
+        "sujet": [
+            "Ils", "Elles", "Alice et Jean",
+            "Les tiktokers", "Les stars"
+        ],
+        "verbe": [
+          "portent", "mangent"  
+        ]
+    },
+    "cod": [
+        "un chat", "un mouchoir", "internet",
+        "un ordinateur", "des couteaux", "un pistolet"
+    ]
+}

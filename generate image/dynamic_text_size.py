@@ -15,17 +15,16 @@ img_color = (76, 76, 76)
 
 # text settings
 font_size = 100
+# text = do_sentence()
 text = do_sentence()
 text_color = (255, 255, 255)
-font = ImageFont.truetype("assets/font/Bella Safira.otf", font_size)
+font = ImageFont.truetype("assets/font/SunDeep.otf", font_size, encoding="UTF-8")
+print(do_sentence())
 
-###################
-# a revoir font trop petite par moment
-###################
 if font.getsize(text)[0] > 1034:
-    font_size = int(1034 / len(text))
+    font_size = int(1034 / (len(text)/2))
     font = ImageFont.truetype("assets/font/Bella Safira.otf", font_size)
-    print(font.getsize(text))
+    print(f"{font.getsize(text)[0]} px\n{len(text)} chars")
 
 text_xy = (int((img_size[0]/2) - (font.getsize(text)[0]) / 2), int((img_size[1]/2) - font.getsize(text)[1]) / 1.25)
 
