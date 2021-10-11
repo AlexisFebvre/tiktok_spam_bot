@@ -1,8 +1,0 @@
-new video is at : (1075, 108)
-select file button is at : (476, 434)
-file path is at : (442, 50)
-select file is at : (238, 168)
-confirm file is at : (582, 443)
-legende is at : (653, 322)
-publish is at : (1118, 757)
-view profil is at : (784, 525)

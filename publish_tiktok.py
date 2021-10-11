@@ -44,6 +44,3 @@ def publish_tiktok():
             sleep(5)
         else:
             type_text(to_type[i])
-
-
-publish_tiktok()
